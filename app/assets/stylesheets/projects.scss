@@ -1,0 +1,66 @@
+.project-info {
+  width: calc(100vw - 50px);
+}
+
+.project-info h3 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  position: relative;
+  top: 25px;
+  left: 150px;
+  font-size: 30px;
+  line-height: 200%;
+}
+
+.project-info p {
+  font-family: Helvetica;
+  font-weight: bolder;
+  position: relative;
+  top: 125px;
+  // left: 20px;
+  font-size: 18px;
+  line-height: 200%;
+
+  padding-right: 70px;
+}
+
+.more-project-info {
+  display: flex;
+}
+
+.section-one {
+  width: 70%;
+}
+.more-project-info img {
+  width: 30%;
+  height: 30%;
+  padding-top: 75px;
+}
+
+
+.project-buttons {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+  left: 135px;
+
+
+}
+
+.project-button{
+  color: cyan;
+  background-color: black;
+  margin: 15px;
+  padding: 10px;
+
+}
+.about-button{
+  color: magenta;
+  background-color: black;
+  margin: auto;
+  display:inline-block;
+  margin: 15px;
+  padding: 10px;
+}
