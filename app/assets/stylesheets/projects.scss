@@ -1,22 +1,28 @@
+.PXCO-info {
+  margin-bottom: 50px;
+}
+
 .project-info {
-  width: calc(100vw - 50px);
+  width: calc(100vw - 150px);
+  padding-left: 100px;
+    display: flex;
 }
 
 .project-info h3 {
   font-family: Helvetica;
   font-weight: bolder;
-  position: relative;
+  // position: relative;
   top: 25px;
   left: 150px;
   font-size: 30px;
   line-height: 200%;
-  
+
 }
 
 .project-info p {
   font-family: Helvetica;
   font-weight: bolder;
-  position: relative;
+  // position: relative;
   top: 125px;
   // left: 20px;
   font-size: 18px;
@@ -43,7 +49,7 @@
   font-family: Helvetica;
   font-weight: bolder;
   font-size: 30px;
-  position: relative;
+  // position: relative;
   left: 135px;
 
 
@@ -63,4 +69,23 @@
   display:inline-block;
   margin: 15px;
   padding: 10px;
+}
+
+.Budgie-Info {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.b-section-one {
+  width: 40%;
+}
+
+.b-section-one img {
+  width: 90%;
+  height: auto;
+}
+
+.b-section-two {
+  padding-top: 110px;
+  width: 50%;
 }
