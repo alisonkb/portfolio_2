@@ -1,5 +1,9 @@
 {
   "name": "webste",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": "9.3.0",
+    "npm": "5.6.0"
+  }
 }

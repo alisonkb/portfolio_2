@@ -1,3 +1,68 @@
-// Place all the styles related to the Info controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.info-page {
+  width: calc(100vw - 200px);
+  min-height: 100vh
+}
+
+
+.header-buttons {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  left: 0px;
+
+}
+
+.project-button-h {
+  color: cyan;
+  background-color: black;
+  // margin: 15px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.about-button-h {
+  color: magenta;
+  background-color: black;
+  // margin: 15px;
+  padding: 10px;
+}
+
+
+.header-about {
+  position: absolute;
+  top: -200px;
+}
+
+.skill-buttons {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  // top: 50px;
+  left: 135px;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  display: flex;
+}
+
+.skill-buttons li {
+
+  background-color: black;
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+.blue-button {
+  color: cyan;
+}
+.yellow-button {
+  color: yellow;
+}
+.magenta-button {
+  color: magenta;
+}
