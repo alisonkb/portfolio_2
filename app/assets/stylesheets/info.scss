@@ -36,24 +36,44 @@
 }
 
 .skill-buttons {
-  font-family: Helvetica;
-  font-weight: bolder;
-  font-size: 30px;
+  // font-family: Helvetica;
+  // font-weight: bolder;
+  // font-size: 30px;
   position: relative;
-  // top: 50px;
   left: 135px;
-  margin: 15px;
+  // margin: 15px;
   padding: 10px;
-  color: white;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  // color: white;
   display: flex;
+  color:white;
+  // justify-content: flex-start;
 }
 
 .skill-buttons li {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+}
 
+.skill-buttons img {
+  width: 40px;
+  margin: auto;
+}
+
+.skill-buttons p {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  // color: white;
   background-color: black;
   margin: 15px;
   padding: 10px;
-  display: inline-block;
+
 }
 
 
@@ -65,4 +85,19 @@
 }
 .magenta-button {
   color: magenta;
+}
+
+.info-resume-button {
+  padding-top: 50px;
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: black;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.info-resume {
+  padding-top: 50px;
 }
