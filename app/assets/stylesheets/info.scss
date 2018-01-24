@@ -4,14 +4,19 @@
 }
 
 
-.header-buttons {
+.info-header-buttons {
   font-family: Helvetica;
   font-weight: bolder;
   font-size: 30px;
-  position: relative;
-  top: 30px;
-  left: 0px;
+  // position: relative;
+  top: 210px;
+  margin: 15px;
+  position: absolute;
+  right: 10px;
+}
 
+.home-info {
+  padding-top: 40px;
 }
 
 .project-button-h {
@@ -27,6 +32,7 @@
   background-color: black;
   // margin: 15px;
   padding: 10px;
+  margin-left: 15px;
 }
 
 
@@ -47,7 +53,7 @@
   padding-bottom: 80px;
   // color: white;
   display: flex;
-  color:white;
+  // color:white;
   // justify-content: flex-start;
 }
 
@@ -70,7 +76,7 @@
   font-weight: bolder;
   font-size: 30px;
   // color: white;
-  background-color: black;
+  // background-color: black;
   margin: 15px;
   padding: 10px;
 
@@ -100,4 +106,5 @@
 
 .info-resume {
   padding-top: 50px;
+  padding-bottom: 20px;
 }

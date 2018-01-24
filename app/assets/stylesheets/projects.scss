@@ -1,5 +1,6 @@
 .PXCO-info {
   margin-bottom: 50px;
+  padding-top: 60px;
 }
 
 .project-info {
@@ -14,9 +15,22 @@
   // position: relative;
   top: 25px;
   left: 150px;
+
   font-size: 30px;
   line-height: 200%;
 
+}
+
+.header-buttons {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  margin: 15px;
+  // position: absolute;
+  float: right;
+  right: 20px
 }
 
 .project-info p {
