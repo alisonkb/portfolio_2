@@ -25,43 +25,8 @@
   font-family: Helvetica;
   font-weight: bolder;
   position: relative;
-  // top: -32vh;
   top: calc(-36vw);
   left: 16vw;
   font-size: 3vw;
   line-height: 200%;
-}
-
-
-
-.footer-section {
-  background-color: magenta;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.promo-logo {
-  height: 40px;
-  padding: 0px 20px;
-}
-
-.footer-section p {
-  font-family: Helvetica;
-  font-weight: bolder;
-  font-size: 30px;
-  position: relative;
-  padding: 0px 20px;
-}
-
-.footer-lines {
-  height: 300px;
-  width: auto;
-  position: absolute;
-  left: -250px;
-  bottom: -220px;
-  overflow: hidden;
 }
