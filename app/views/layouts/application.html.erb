@@ -2,15 +2,31 @@
 <html>
   <head>
     <meta name="google-site-verification" content="6QrYFZW_vVGIwQHkDKAC7smXbvcpGQgKhL4wJuGrSk0" />
-    <title>Alison Bushor</title>
+    <title>Alison Bushor | Web Developer & Designer</title>
     <%= metamagic %>
     <%= csrf_meta_tags %>
     <%= favicon_link_tag 'favicon.ico' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script type="text/javascript" src='script.js'>
+
+    </script>
   </head>
 
   <body>
+
+    <div class="dropdown" id='bkgdchange'>
+      <div class="container" onclick="alterBuns(this)">
+        <div class="bar1" id='buns1'></div>
+        <div class="bar2" id='buns'></div>
+        <div class="bar3" id='buns'></div>
+      </div>
+        <div id="hamburger" class="dropdown-content">
+          <a href="<%=home_index_url%>">Home</a>
+          <a href="<%=projects_url%>">Projects</a>
+          <a href="<%=info_index_url%>">Info</a>
+        </div>
+    </div>
 
 
     <%= yield %>
