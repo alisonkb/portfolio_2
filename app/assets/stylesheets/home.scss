@@ -1,78 +1,37 @@
 .home-page {
   overflow-x: hidden;
   width: 100vw;
-  height: calc(100vh - 80px);
+  // height: calc(100vh - 80px);
 }
 
 .header-section {
-  height: 200px;
-  overflow: hidden;
-  width: 100vw;;
+  z-index: 1;
   position: relative;
+  left: -6vw;
 }
 
-.header-lines {
-  height: 300px;
-  width: auto;
-  position: absolute;
-  right: -200px;
-  overflow: hidden;
-}
-
-.header-section h1 {
+.header-section p {
   font-family: Helvetica;
-  font-size: 200px;
   font-weight: bolder;
-  position: absolute;
-  left: 150px;
-  top: 0px;
+  font-size: 40vw;
+  color: yellow;
+
 }
 
 
 .home-info {
+  position: absolute;
+  z-index: 2;
   font-family: Helvetica;
   font-weight: bolder;
   position: relative;
-  top: 25px;
-  left: 150px;
-  font-size: 30px;
+  // top: -32vh;
+  top: calc(-36vw);
+  left: 16vw;
+  font-size: 3vw;
   line-height: 200%;
 }
 
-.home-buttons {
-  font-family: Helvetica;
-  font-weight: bolder;
-  font-size: 30px;
-  position: relative;
-  top: 50px;
-  left: 135px;
-
-
-}
-
-.project-button{
-  color: cyan;
-  background-color: black;
-  margin: 15px;
-  padding: 10px;
-
-}
-.about-button{
-  color: magenta;
-  background-color: black;
-  margin: auto;
-  display:inline-block;
-  margin: 15px;
-  padding: 10px;
-}
-.resume-button{
-  color: yellow;
-  background-color: black;
-  margin: auto;
-  display:inline-block;
-  margin: 15px;
-  padding: 10px;
-}
 
 
 .footer-section {
