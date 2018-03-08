@@ -1,110 +1,65 @@
-.info-page {
-  width: calc(100vw - 200px);
-  min-height: 100vh
-}
-
-
-.info-header-buttons {
-  font-family: Helvetica;
-  font-weight: bolder;
-  font-size: 30px;
-  // position: relative;
-  top: 210px;
-  margin: 15px;
-  position: absolute;
-  right: 10px;
-}
-
-.home-info {
-  margin-top: 40px;
-}
-
-.project-button-h {
-  color: cyan;
-  background-color: black;
-  // margin: 15px;
-  padding: 10px;
-  margin-bottom: 30px;
-}
-
-.about-button-h {
-  color: magenta;
-  background-color: black;
-  // margin: 15px;
-  padding: 10px;
-  margin-left: 15px;
-}
-
-
-.header-about {
-  position: absolute;
-  top: -200px;
-}
-
-.skill-buttons {
-  // font-family: Helvetica;
-  // font-weight: bolder;
-  // font-size: 30px;
+.title, .title-2, .title-3 {
+  z-index: 1;
   position: relative;
-  left: 135px;
-  // margin: 15px;
-  padding: 10px;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  // color: white;
-  display: flex;
-  // color:white;
-  // justify-content: flex-start;
-}
-
-.skill-buttons li {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  display: inline-block;
-}
-
-.skill-buttons img {
-  width: 40px;
-  margin: auto;
-}
-
-.skill-buttons p {
+  left: -3vw;
   font-family: Helvetica;
   font-weight: bolder;
-  font-size: 30px;
-  // color: white;
-  // background-color: black;
-  margin: 15px;
-  padding: 10px;
-
-}
-
-
-.blue-button {
-  color: cyan;
-}
-.yellow-button {
+  font-size: 15vw;
   color: yellow;
 }
-.magenta-button {
+
+.title-2 {
   color: magenta;
 }
 
-.info-resume-button {
-  padding-top: 50px;
-  font-family: Helvetica;
-  font-weight: bolder;
-  font-size: 30px;
-  background-color: black;
-  margin: 15px;
-  padding: 10px;
-  color: white;
+.title-3 {
+  color: cyan;
 }
 
-.info-resume {
-  padding-top: 50px;
-  padding-bottom: 20px;
+.body {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  font-family: Helvetica;
+  font-weight: bolder;
+  position: relative;
+  top: calc(-8vw);
+  font-size: 2.5vw;
+  line-height: 120%;
+}
+
+.body a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.list {
+  width: 80%;
+  margin: auto;
+  font-family: Helvetica;
+  font-weight: bolder;
+  position: relative;
+  font-size: 2.5vw;
+  line-height: 120%;
+}
+
+.left-side {
+  padding-left: 18vw;
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+.list-divider {
+  width: 15px;
+  height: 21vw;
+  background-color: black;
+  float: left;
+  margin-right: 45px;
+}
+
+.right-side {
+  float: left;
+  width: 20%;
 }
