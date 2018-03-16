@@ -15,11 +15,6 @@
   background-color: black;
 }
 
-/* .dropdown {
-  width: 10%;
-  float: left;
-} */
-
 
 .container {
   display: inline-block;
@@ -52,7 +47,7 @@
   background-color: black;
   margin: 10px 0;
   transition: 0.4s;
-  z-
+
 }
 
 .container:hover .bar1{
