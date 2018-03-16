@@ -2,6 +2,8 @@ function alterBuns(x) {
   x.classList.toggle('change');
   dropdown();
   bkgdChange();
+  topBarLength();
+  hideContent();
 }
 
 function dropdown() {
@@ -9,5 +11,13 @@ function dropdown() {
 }
 
 function bkgdChange() {
-  document.getElementById("bkgdchange").classList.toggle("bkgdColors")
+  document.getElementById("bkgdchange").classList.toggle("bkgdColors");
+}
+
+function topBarLength() {
+  document.getElementById('top-bar-length').classList.toggle('make-bar-longer');
+}
+
+function hideContent() {
+  document.getElementById('body-content').classList.toggle('hide');
 }
