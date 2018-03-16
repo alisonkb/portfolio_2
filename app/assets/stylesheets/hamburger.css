@@ -17,7 +17,8 @@
 
 .container {
   display: inline-block;
-  position: relative;
+  position: sticky;
+  top: 20px;
   left: calc(100vw - 100px);
   cursor: pointer;
 }
@@ -35,6 +36,8 @@
 }
 
 .bar1, .bar2, .bar3 {
+  position: sticky;
+  top: 20px;
   width: 70px;
   height: 15px;
   background-color: black;
@@ -89,7 +92,7 @@
 
 
 .show {
-  max-height: 100vh;
+  max-height: 100%;
   overflow: hidden;
   position: fixed;
   display:block;
