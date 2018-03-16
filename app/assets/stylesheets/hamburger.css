@@ -41,9 +41,7 @@
 .sticky {
   position: sticky;
   top: 20px;
-  right: 20px;
   z-index: 3;
-  /* width: 10%; */
 }
 
 .bar1, .bar2, .bar3 {

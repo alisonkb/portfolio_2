@@ -1,3 +1,7 @@
+.info-page {
+  height: 100vh;
+}
+
 .title, .title-2, .title-3 {
   z-index: 2;
   position: relative;
@@ -27,8 +31,6 @@
   top: calc(-8vw);
   font-size: 2.5vw;
   line-height: 120%;
-
-   // background-blend-mode: color-burn;
 }
 
 .body a {
