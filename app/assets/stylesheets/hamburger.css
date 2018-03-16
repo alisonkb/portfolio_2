@@ -50,11 +50,11 @@
 }
 
 .container:hover .bar2{
-  background-color: magenta;
+  background-color: yellow;
 }
 
 .container:hover .bar3{
-  background-color: cyan;
+  background-color: yellow;
 }
 
 .change .bar1 {
@@ -87,6 +87,10 @@
    font-family: helvetica;
    font-weight: bolder;
    font-size: 100px;
+}
+
+.dropdown-content a:hover {
+  color: yellow;
 }
 
 

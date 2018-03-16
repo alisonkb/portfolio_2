@@ -14,18 +14,13 @@
 
     <div class='home-page' id='body-content'>
 
-
-
-    <div class='PXCO-info'>
-      <section class='project-info'>
-
-        <section class='more-project-info'>
-          <div class='section-one'>
-            <h3 class='p-title'>PXCO:</h3>
-
+        <div class='project-section'>
+          <h3 class='p-title'>PXCO:</h3>
+          <div class='pxco-pic' onClick='showPXCO()'>
             <img class='project-pics' src ="https://s3.amazonaws.com/pxco-dev/PXGIF1.gif">
-
-          <p class='project-descript'>PXCO is a social photo sharing application based on VSCO
+            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+          </div>
+          <p class='project-descript' id='pxco-descript'>PXCO is a social photo sharing application based on VSCO
             made with React.js, JavaScript, Ruby on Rails, CSS, and SQL.
             It allows visitors to check out images that our community has
             uploaded and see user profiles with images that they've posted,
@@ -35,44 +30,50 @@
             to reduce file size.<br><br>
             Check out the live site <a href="https://pxco.herokuapp.com/#/">here.</a><br>
             Check out the code <a href="https://github.com/alisonkb/PXCO">here.</a>
-
           </p>
+        </div>
 
-          </div>
-        </section>
-      </section>
 
-    </div>
 
-    <div class='Budgie-Info'>
-      <section class='project-info'>
-          <div class='b-section-one'>
-          <h3 class='p-title-2'>Go, Budgie, Go!:</h3>
-
+        <div class='project-section'>
+        <h3 class='p-title-2'>Go, Budgie, Go!:</h3>
+        <div onClick='showBudgie()'>
             <img class='project-pics' src ="https://s3.us-east-2.amazonaws.com/pxco/GoBudgie.gif">
+            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+         </div>
+
+            <p class='project-descript' id='budgie-descript'>Go, Budgie, Go! is a game about my dog Budgie's adventure through
+            Brooklyn as he chases down a squirrel! Your task is to help him
+            jump over the many obstacles that stand in your way, such as garbage bins,
+            hot dog carts, and more! This game was made with vanilla JavaScript and HTML5
+            canvas.<br><br>
+            Check out the live site <a href="https://alisonkb.github.io/Budgie_Runner/">here.</a><br>
+            Check out the code <a href="https://github.com/alisonkb/Budgie_Runner">here.</a>
+            </p>
           </div>
 
-          <div class='b-section-two'>
 
-          <p class='project-descript'>Go, Budgie, Go! is a game about my dog Budgie's adventure through
-          Brooklyn as he chases down a squirrel! Your task is to help him
-          jump over the many obstacles that stand in your way, such as garbage bins,
-          hot dog carts, and more! This game was made with vanilla JavaScript and HTML5
-          canvas.<br><br>
-          Check out the live site <a href="https://alisonkb.github.io/Budgie_Runner/">here.</a><br>
-          Check out the code <a href="https://github.com/alisonkb/Budgie_Runner">here.</a>
+
+        <div class='project-section'>
+          <h3 class='p-title-3'>This:</h3>
+          <div onClick='showPXCO()'>
+            <img class='project-pics' src ="https://s3.amazonaws.com/pxco-dev/PXGIF1.gif">
+            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+          </div>
+          <p class='project-descript' id='pxco-descript'>PXCO is a social photo sharing application based on VSCO
+            made with React.js, JavaScript, Ruby on Rails, CSS, and SQL.
+            It allows visitors to check out images that our community has
+            uploaded and see user profiles with images that they've posted,
+            as well as images that they've liked. In addition to profile pages
+            and photo uploading capabilities, members get an additional
+            photo feed of users that they follow. The images are stored via AWS
+            to reduce file size.<br><br>
+            Check out the live site <a href="https://pxco.herokuapp.com/#/">here.</a><br>
+            Check out the code <a href="https://github.com/alisonkb/PXCO">here.</a>
           </p>
-          
+        </div>
 
 
-      </div>
-
-
-
-      </section>
-
-
-    </div>
 
   </div>
 

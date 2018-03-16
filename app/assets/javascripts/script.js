@@ -21,3 +21,30 @@ function topBarLength() {
 function hideContent() {
   document.getElementById('body-content').classList.toggle('hide');
 }
+
+function showPXCO() {
+  document.getElementById('pxco-descript').classList.toggle('show-pxco');
+}
+
+function showBudgie() {
+  document.getElementById('budgie-descript').classList.toggle('show-budgie');
+}
+
+// function showLess() {
+//   let mathSign = document.getElementById('show-less').innerHTML;
+//   if (mathSign === "+") {
+//     document.getElementById('show-less').innerHTML = "-";
+//   } else {
+//     document.getElementById('show-less').innerHTML = "+";
+//   }
+// }
+
+function showLess(x) {
+  let mathSign = x.innerHTML;
+  console.log(mathSign)
+  if (mathSign === "+") {
+    x.innerHTML = "-";
+  } else {
+    x.innerHTML = "+";
+  }
+}
