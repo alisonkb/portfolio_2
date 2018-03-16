@@ -9,6 +9,8 @@
   z-index: 7;
 }
 
+
+
 .make-bar-longer {
   height: 20px;
   background-color: black;
@@ -46,15 +48,15 @@
 }
 
 .container:hover .bar1{
-  background-color: yellow;
+  background-color: white;
 }
 
 .container:hover .bar2{
-  background-color: yellow;
+  background-color: white;
 }
 
 .container:hover .bar3{
-  background-color: yellow;
+  background-color: white;
 }
 
 .change .bar1 {
@@ -90,7 +92,7 @@
 }
 
 .dropdown-content a:hover {
-  color: yellow;
+  color: #ebd0cf;
 }
 
 

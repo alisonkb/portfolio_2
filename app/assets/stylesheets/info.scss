@@ -5,16 +5,16 @@
   font-family: Helvetica;
   font-weight: bolder;
   font-size: 12vw;
-  color: yellow;
+  color: white;
 }
 
 .title-2 {
-  color: yellow;
+  color: white;
 }
 
 .title-3 {
   padding-top: 18vw;
-  color: yellow;
+  color: white;
 }
 
 .body {
@@ -27,6 +27,8 @@
   top: calc(-8vw);
   font-size: 2.5vw;
   line-height: 120%;
+
+   // background-blend-mode: color-burn;
 }
 
 .body a {

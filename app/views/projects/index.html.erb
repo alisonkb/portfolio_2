@@ -16,11 +16,12 @@
 
         <div class='project-section'>
           <h3 class='p-title'>PXCO:</h3>
-          <div class='pxco-pic' onClick='showPXCO()'>
+          <div class='visible-els'>
             <img class='project-pics' src ="https://s3.amazonaws.com/pxco-dev/PXGIF1.gif">
-            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+            <p class='learn-more' onClick='showLess(this); showPXCO();' id='show-less'>+</p>
           </div>
-          <p class='project-descript' id='pxco-descript'>PXCO is a social photo sharing application based on VSCO
+          <p class='project-descript' id='pxco-descript'>PXCO is a social photo
+            sharing application based on VSCO
             made with React.js, JavaScript, Ruby on Rails, CSS, and SQL.
             It allows visitors to check out images that our community has
             uploaded and see user profiles with images that they've posted,
@@ -37,12 +38,13 @@
 
         <div class='project-section'>
         <h3 class='p-title-2'>Go, Budgie, Go!:</h3>
-        <div onClick='showBudgie()'>
+        <div  class='visible-els'>
             <img class='project-pics' src ="https://s3.us-east-2.amazonaws.com/pxco/GoBudgie.gif">
-            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+            <p class='learn-more' onClick='showLess(this); showBudgie();' id='show-less'>+</p>
          </div>
 
-            <p class='project-descript' id='budgie-descript'>Go, Budgie, Go! is a game about my dog Budgie's adventure through
+            <p class='project-descript' id='budgie-descript'>Go, Budgie, Go! is a
+              game about my dog Budgie's adventure through
             Brooklyn as he chases down a squirrel! Your task is to help him
             jump over the many obstacles that stand in your way, such as garbage bins,
             hot dog carts, and more! This game was made with vanilla JavaScript and HTML5
@@ -56,20 +58,18 @@
 
         <div class='project-section'>
           <h3 class='p-title-3'>This:</h3>
-          <div onClick='showPXCO()'>
-            <img class='project-pics' src ="https://s3.amazonaws.com/pxco-dev/PXGIF1.gif">
-            <p class='learn-more' onClick='showLess(this)' id='show-less'>+</p>
+          <div  class='visible-els'>
+            <img class='project-pics' src ="https://s3.us-east-2.amazonaws.com/pxco/PORTv1.gif">
+            <p class='learn-more' onClick='showLess(this); showPortfolio();' id='show-less'>+</p>
           </div>
-          <p class='project-descript' id='pxco-descript'>PXCO is a social photo sharing application based on VSCO
-            made with React.js, JavaScript, Ruby on Rails, CSS, and SQL.
-            It allows visitors to check out images that our community has
-            uploaded and see user profiles with images that they've posted,
-            as well as images that they've liked. In addition to profile pages
-            and photo uploading capabilities, members get an additional
-            photo feed of users that they follow. The images are stored via AWS
-            to reduce file size.<br><br>
-            Check out the live site <a href="https://pxco.herokuapp.com/#/">here.</a><br>
-            Check out the code <a href="https://github.com/alisonkb/PXCO">here.</a>
+          <p class='project-descript' id='portfolio-descript'>I'm always on the lookout for
+            innovative ideas and inspiration, so whenever I have free time I like to
+            add new features and design elemets to this site. Above is one of the original
+            implementations to give you an idea of how far it's come. Since I used it as my
+            fun, personal project, I heavily use my favorite languages: CSS, HTML, and JavaScript on a
+            Ruby on Rails framework.
+          <br><br>
+            You can see the code for the current site <a href='https://github.com/alisonkb/portfolio_2'>here.</a>
           </p>
         </div>
 

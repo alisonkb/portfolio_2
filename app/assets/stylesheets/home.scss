@@ -1,7 +1,12 @@
+body {
+  background: #ebd0cf;
+  background: linear-gradient(to bottom, #ebd0cf 25%,#e8d5c6 50%,#e8e0c6 75%,#e8e7c6 100%);
+}
+
 .home-page {
   overflow-x: hidden;
   width: 100vw;
-  // height: calc(100vh - 80px);
+  height: calc(100vh - 80px);
 }
 
 .header-section {
@@ -14,7 +19,7 @@
   font-family: Helvetica;
   font-weight: bolder;
   font-size: 40vw;
-  color: yellow;
+  color: white;
 
 }
 

@@ -30,18 +30,13 @@ function showBudgie() {
   document.getElementById('budgie-descript').classList.toggle('show-budgie');
 }
 
-// function showLess() {
-//   let mathSign = document.getElementById('show-less').innerHTML;
-//   if (mathSign === "+") {
-//     document.getElementById('show-less').innerHTML = "-";
-//   } else {
-//     document.getElementById('show-less').innerHTML = "+";
-//   }
-// }
+function showPortfolio() {
+  document.getElementById('portfolio-descript').classList.toggle('show-budgie');
+
+}
 
 function showLess(x) {
   let mathSign = x.innerHTML;
-  console.log(mathSign)
   if (mathSign === "+") {
     x.innerHTML = "-";
   } else {
