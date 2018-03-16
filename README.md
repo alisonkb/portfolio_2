@@ -1,9 +1,9 @@
 # README
 
-Preliminary portfolio design made with Ruby on Rails. 
+Round two of my portfolio website.
 
-Linear CMYK design with a strong Helvetica typeface. 
+Maintaining a linear CMYK design with a strong Helvetica typeface.
 
-Home // Info // Project // Project(id) 
+Home // Info // Projects
 
-Includes PNGs to be used with as design elements. 
+Created with Ruby, Rails, HTML, CSS, JavaScript. 
