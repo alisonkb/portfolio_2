@@ -2,8 +2,8 @@
 
 Round two of my portfolio website.
 
-Maintaining a linear CMYK design with a strong Helvetica typeface.
+Maintaining basic page layout, but with updated design.
 
 Home // Info // Projects
 
-Created with Ruby, Rails, HTML, CSS, JavaScript. 
+Created with Ruby, Rails, HTML, CSS, JavaScript.
