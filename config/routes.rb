@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :info, only: [:index]
   resources :home, only: [:index], :path => "/"
   resources :projects, only: [:index, :show]
+  resources :media, only: [:index]
 
 
 
